@@ -1,6 +1,6 @@
 # Sentinel SOC — Threat Detection & Incident Response Lab
 
-A **local, educational** cybersecurity portfolio project: FastAPI + SQLite backend, React/Vite frontend, Framer Motion animations, Recharts, and Sigma-style YAML detection metadata with an explicit **custom correlation extension**.
+A **Local and Live** Cybersecurity SOC project: FastAPI + SQLite backend, React/Vite frontend, Framer Motion animations, Recharts, and Sigma-style YAML detection metadata with an explicit **custom correlation extension**.
 
 ![Status](https://img.shields.io/badge/status-educational_portfolio_demo-44dccb) ![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
 # Live: https://sentinel-soc-njno.onrender.com
