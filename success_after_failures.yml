@@ -1,0 +1,17 @@
+title: Successful Login After Repeated Failures
+id: 7bcaa12d-901a-477c-9ef9-1a72ed149901
+status: experimental
+description: Successful login following at least 3 failures from the same IP within 15 minutes.
+logsource:
+  category: authentication
+  product: generic
+detection:
+  selection:
+    outcome: success
+  condition: selection
+  timeframe: 15m
+level: critical
+x_demo_correlation:
+  group_by: source_ip
+  preceding_failures: 3
+  window_minutes: 15

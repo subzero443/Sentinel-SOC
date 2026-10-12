@@ -1,0 +1,18 @@
+title: Multiple Failed Logins From One IP
+id: 9a2174cd-1a9b-4d13-a92b-b66c66cc5101
+status: experimental
+description: Detects 5 or more failed authentication events from one IP in 10 minutes.
+logsource:
+  category: authentication
+  product: generic
+detection:
+  selection:
+    outcome: failure
+  condition: selection
+  timeframe: 10m
+level: high
+# Demo engine implements a documented subset, not full Sigma correlation semantics.
+x_demo_correlation:
+  group_by: source_ip
+  threshold: 5
+  window_minutes: 10
