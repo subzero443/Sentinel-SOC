@@ -3,6 +3,7 @@
 A **local, educational** cybersecurity portfolio project: FastAPI + SQLite backend, React/Vite frontend, Framer Motion animations, Recharts, and Sigma-style YAML detection metadata with an explicit **custom correlation extension**.
 
 ![Status](https://img.shields.io/badge/status-educational_portfolio_demo-44dccb) ![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
+# Live: https://sentinel-soc-njno.onrender.com
 
 # Screenshots
 <img src="Screenshot 2026-10-12 174820.png">
