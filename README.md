@@ -4,6 +4,14 @@ A **local, educational** cybersecurity portfolio project: FastAPI + SQLite backe
 
 ![Status](https://img.shields.io/badge/status-educational_portfolio_demo-44dccb) ![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
 
+# Screenshots
+<img src="Screenshot 2026-10-12 174820.png">
+<img src="Screenshot 2026-10-12 174834.png">
+<img src="Screenshot 2026-10-12 174849.png">
+<img src="Screenshot 2026-10-12 174910.png">
+<img src="Screenshot 2026-10-12 173548.png">
+<img src="Screenshot 2026-10-12 174656.png">
+
 ## Live portfolio deployment
 
 To deploy the safe, read-only demonstration to Render's free web hosting,
